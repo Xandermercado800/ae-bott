@@ -59,7 +59,7 @@ banner = """
 
 print(banner.format(g,b,g,w,r,b,g,r,g,r,g,r,g,b,g,b,g,b,g,b,g,b,g,b,g,b,g,b,g,b,g,b,g,b,g,b,g,b,g,b,g,b,g,b,g,b,g,b,g,b,g,b,g))
 
-tool = raw_input(g + "["+r+"*"+g+"] Choose tool : ")
+tool = input(g + "["+r+"*"+g+"] Choose tool : ")
 
 if tool == "1":
 	os.chdir("Tools/Tool1")
